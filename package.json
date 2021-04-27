@@ -7,7 +7,12 @@
     "web": "expo start --web",
     "eject": "expo eject"
   },
-  "dependencies": {
+  "rnpm": {
+    "assets": [
+	    "./src/fonts"
+    ]
+  },
+  "dependencies": { 
     "expo": "~41.0.1",
     "expo-status-bar": "~1.0.4",
     "react": "16.13.1",
